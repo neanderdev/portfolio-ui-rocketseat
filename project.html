@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalam&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="./project.css" />
+
+    <title>UI Portfólio | Project</title>
+  </head>
+
+  <body>
+    <nav>
+      <img class="logo" src="./assets/logo.svg" alt="Logo" />
+
+      <div class="menu-items">
+        <a href="" class="active">Home</a>
+
+        <a href="">About</a>
+
+        <a href="">Projets</a>
+
+        <a href="">Contact</a>
+
+        <div class="actions">
+          <button type="button" class="alter-language">PT</button>
+
+          <button type="button" class="alter-theme">
+            <i class="ph ph-sun"></i>
+          </button>
+        </div>
+      </div>
+
+      <button type="button" class="menu" id="menu">
+        <i class="ph ph-list"></i>
+      </button>
+
+      <button type="button" class="close-menu" id="close-menu">
+        <i class="ph ph-x"></i>
+      </button>
+    </nav>
+
+    <main>
+      <aside>
+        <div class="sidebar-container">
+          <div class="menu-items">
+            <a href="" class="active">Home</a>
+
+            <a href="">About</a>
+
+            <a href="">Projets</a>
+
+            <a href="">Contact</a>
+
+            <hr />
+
+            <div class="actions">
+              <button type="button" class="alter-language">PT</button>
+
+              <button type="button" class="alter-theme">
+                <i class="ph ph-sun"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <div class="project-container">
+        <div class="project">
+          <img
+            src="./assets/feedback-widget.png"
+            alt="Project Feedback Widget"
+          />
+
+          <div class="project-info">
+            <div class="project-info-tech">
+              <time>Jul - Dec 2022</time>
+
+              <div class="techs">
+                <i class="devicon-tailwindcss-plain"></i>
+
+                <i class="devicon-python-plain"></i>
+              </div>
+            </div>
+
+            <h1>Feedback Widget</h1>
+
+            <p>
+              <span>My role:</span> Full-stack developer <br />
+
+              <span>Team:</span> Marcus Souza (PM), Ilana Mallak (UX/UI
+              Designer)
+              <br />
+              <br />
+
+              We improved our CSAT from 4.4 to 4.8 after analysing custumer
+              feedback provided on our product trought this widget.
+              <br />
+              <br />
+
+              I worked as the main developer of this features implementing the
+              front-end using Tailwind and a Data Viz dashboard using Python to
+              follow-up customer feedback and improve data analysis.
+              <br />
+              <br />
+
+              The main challenge was to create a flexible structure that could
+              be used as an API across all our company web applications.
+            </p>
+          </div>
+
+          <button type="button" class="arrow-left">
+            <i class="ph ph-arrow-left"></i>
+          </button>
+        </div>
+
+        <div class="project-live">
+          <p>Take a look at this project</p>
+
+          <div class="project-live-actions">
+            <button type="button" class="live-demo">
+              <i class="ph ph-globe-simple"></i>
+
+              <span>Live demo</span>
+
+              <i class="ph ph-arrow-up-right"></i>
+            </button>
+
+            <button type="button" class="code">
+              <ion-icon name="logo-github"></ion-icon>
+
+              <span>Code</span>
+
+              <i class="ph ph-arrow-up-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          Lina Levi 2023. Layout based on <span>Rocketseat’s</span> template.
+        </p>
+
+        <div class="links">
+          <a href="">Github</a>
+
+          <a href="">LinkedIn</a>
+
+          <a href="">Instagram</a>
+
+          <button type="button" class="arrow-up">
+            <i class="ph ph-arrow-up"></i>
+          </button>
+        </div>
+      </footer>
+    </main>
+  </body>
+
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <script src="./project.js"></script>
+</html>
